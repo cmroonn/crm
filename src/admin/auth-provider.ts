@@ -20,7 +20,7 @@ const provider = new DefaultAuthProvider({
     }
 
     if (email === 'pizda') {
-      return { email, role: 2 }
+      return { email, role: 0 }
     }
 
     return null;
