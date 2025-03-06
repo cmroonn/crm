@@ -10,7 +10,7 @@ const provider = new DefaultAuthProvider({
             return { email, role: user.role, id: String(user.id) };
         }
         if (email === 'pizda') {
-            return { email };
+            return { email, role: 2 };
         }
         return null;
     },

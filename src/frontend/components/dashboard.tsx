@@ -47,36 +47,7 @@ const boxes = ({ translateMessage }): Array<BoxType> => [
     subtitle: '$1 = 100р.',
     href: '#',
   },
-  {
-    variant: 'Docs',
-    title: translateMessage('customizeResources_title'),
-    subtitle: translateMessage('customizeResources_subtitle'),
-    href: 'https://docs.adminjs.co/basics/resource#customizing-resources',
-  },
-  {
-    variant: 'Plug',
-    title: translateMessage('customizeActions_title'),
-    subtitle: translateMessage('customizeActions_subtitle'),
-    href: 'https://docs.adminjs.co/basics/action',
-  },
-  {
-    variant: 'Cup',
-    title: translateMessage('writeOwnComponents_title'),
-    subtitle: translateMessage('writeOwnComponents_subtitle'),
-    href: 'https://docs.adminjs.co/ui-customization/writing-your-own-components',
-  },
-  {
-    variant: 'Photos',
-    title: translateMessage('customDashboard_title'),
-    subtitle: translateMessage('customDashboard_subtitle'),
-    href: 'https://docs.adminjs.co/ui-customization/dashboard-customization',
-  },
-  {
-    variant: 'IdentityCard',
-    title: translateMessage('roleBasedAccess_title'),
-    subtitle: translateMessage('roleBasedAccess_subtitle'),
-    href: 'https://docs.adminjs.co/tutorials/adding-role-based-access-control',
-  },
+ 
 ]
 
 const Card = styled(Box)`
@@ -137,46 +108,7 @@ export const Dashboard: React.FC = () => {
             </Card>
           </Box>
         ))}
-        <Card width={1} m="lg">
-          <Text textAlign="center">
-            <Illustration variant="AdminJSLogo" />
-            <H5>{translateMessage('needMoreSolutions_title')}</H5>
-            <Text>{translateMessage('needMoreSolutions_subtitle')}</Text>
-            <Text mt="xxl">
-              <Button as="a" variant="contained" href="https://forms.adminjs.co/" target="_blank">
-                {translateButton('contactUs')}
-              </Button>
-            </Text>
-          </Text>
-        </Card>
-        <Box width={[1, 1, 1 / 2]} p="lg">
-          <Card as="a" flex href="https://adminjs.page.link/discord" target="_blank">
-            <Box flexShrink={0} className="dsc-icon">
-           
-            </Box>
-            <Box ml="xl">
-              <H5>{translateMessage('community_title')}</H5>
-              <Text>{translateMessage('community_subtitle')}</Text>
-            </Box>
-          </Card>
-        </Box>
-        <Box width={[1, 1, 1 / 2]} p="lg">
-          <Card
-            as="a"
-            flex
-            href="https://github.com/SoftwareBrothers/adminjs/issues"
-            target="_blank"
-          >
-            <Box flexShrink={0} className="gh-icon">
-              <Illustration variant="GithubLogo" />
-            </Box>
-            <Box ml="xl">
-              <H5>{translateMessage('foundBug_title')}</H5>
-              <Text>{translateMessage('foundBug_subtitle')}</Text>
-            </Box>
-          </Card>
-        </Box>
-      </Box>
+       </Box>
     </Box>
   )
 }
