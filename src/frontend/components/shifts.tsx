@@ -176,7 +176,8 @@ const Shifts: React.FC<ShowPropertyProps> = (props) => {
 			data: [{
 				shiftId: id,
 				startTime: time,
-				user_id: Number(currentAdmin.id)
+				user_id: Number(currentAdmin.id),
+				endTime: '',
 			}]
 		})
 

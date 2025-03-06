@@ -114,7 +114,8 @@ const Shifts = (props) => {
             data: [{
                     shiftId: id,
                     startTime: time,
-                    user_id: Number(currentAdmin.id)
+                    user_id: Number(currentAdmin.id),
+                    endTime: '',
                 }]
         });
         console.log(response);

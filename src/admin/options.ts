@@ -369,7 +369,7 @@ const options: AdminJSOptions = {
           "error404Record": "Ресурс із зазначеним ID: {{resourceId}} не має запису з ID: {{recordId}} або Ви не маєте права використовувати його!",
           "seeConsoleForMore": "Просмотрите консоль для устранения ошибок, либо свяжитесь с разработчиком...",
           "noActionComponent": "Ви повинні заімплементувати ActionComponent для своєї дії",
-          "noRecordsInResource": "У цьому ресурсі немає записів",
+          "noRecordsInResource": "Нет записей",
           "noRecords": "Нет записей.",
           "confirmDelete": "Вы действительно хотите удалить?",
           "welcomeOnBoard_title": "Добро пожаловать!",
