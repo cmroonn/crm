@@ -1,0 +1,126 @@
+{
+	"actions": {
+	  "new": "Создать",
+	  "edit": "Редактировать",
+	  "show": "Просмотр",
+	  "delete": "Удалить",
+	  "bulkDelete": "Удалить все",
+	  "list": "Список"
+	},
+	"buttons": {
+	  "save": "Сохранить",
+	  "addNewItem": "Добавить",
+	  "filter": "Фильтр",
+	  "filterActive": "Фильтр ({{count}})",
+	  "applyChanges": "Сохранить изменения",
+	  "resetFilter": "Очистить фильтр",
+	  "confirmRemovalMany": "Подтвердите удаление {{count}} записи",
+	  "confirmRemovalMany_plural": "Подтвердите удаление {{count}} записей",
+	  "logout": "Выйти",
+	  "login": "Войти",
+	  "seeTheDocumentation": "Смотреть: <1>документацию</1>",
+	  "createFirstRecord": "Создать первую запись",
+	  "contactUs": "Связаться с нами",
+	  "cancel": "Отменить",
+	  "confirm": "Подтвердить"
+	},
+	"components": {
+	  "DropZone": {
+		"placeholder": "Перетащите файлы сюда, либо нажмите для просмотра",
+		"acceptedSize": "Максимальный размер: {{maxSize}}",
+		"acceptedType": "Подтвердить: {{mimeTypes}}",
+		"unsupportedSize": "Файл {{fileName}} сликшом большой",
+		"unsupportedType": "Тип файла {{fileName}} не поддерживается: {{fileType}}"
+	  },
+	  "LanguageSelector": {
+		"availableLanguages": {
+		  "de": "Немецкий",
+		  "en": "Английский",
+		  "es": "Испанский",
+		  "it": "Итальянский",
+		  "ja": "Японский",
+		  "pl": "Польский",
+		  "pt-BR": "Португальский (Бразилія)",
+		  "ua": "українська",
+		  "zh-CN": "китайський",
+		  "ru": "Русский"
+		}
+	  },
+	  "Login": {
+		"welcomeHeader": "Добро пожаловать!",
+		"welcomeMessage": "Авторизуйтесь для начала работы",
+		"properties": {
+		  "email": "E-mail",
+		  "password": "Пароль"
+		},
+		"loginButton": "Войти в систему"
+	  }
+	},
+	"labels": {
+	  "navigation": "Навигация",
+	  "pages": "Страницы",
+	  "selectedRecords": "Выбрано ({{selected}})",
+	  "filters": "Фильтры",
+	  "adminVersion": "Версия AdminJS: {{version}}",
+	  "appVersion": "Версия приложения: {{version}}",
+	  "dashboard": "Дашборд"
+	},
+	"properties": {
+	  "length": "Длина",
+	  "from": "От",
+	  "to": "До",
+	  "email": "E-mail",
+	  "password": "Пароль"
+	},
+	"resources": {},
+	"messages": {
+	  "successfullyBulkDeleted": "Успешно удалено {{count}} запись",
+	  "successfullyBulkDeleted_plural": "Успешно удалено {{count}} записей",
+	  "successfullyDeleted": "Успешно удалено",
+	  "successfullyUpdated": "Успешно удалено",
+	  "thereWereValidationErrors": "Проверьте правильность введенных значений",
+	  "forbiddenError": "Невозможно выполнить действие {{actionName}} на {{resourceId}}",
+	  "anyForbiddenError": "Невозможно выполнить действие",
+	  "successfullyCreated": "Создана новая запись",
+	  "bulkDeleteError": "При удалении записей произошла ошибка. Перейдите в консоль, чтобы просмотреть дополнительную информацию",
+	  "errorFetchingRecords": "При получении записей произошла ошибка. Перейдите в консоль, чтобы просмотреть дополнительную информацию",
+	  "errorFetchingRecord": "При получении записи произошла ошибка. Перейдите в консоль, чтобы просмотреть дополнительную информацию",
+	  "noRecordsSelected": "Вы не выбрали ни одной записи",
+	  "theseRecordsWillBeRemoved": "Следующая запись будет удалена",
+	  "theseRecordsWillBeRemoved_plural": "Следующие записи будут удалены",
+	  "pickSomeFirstToRemove": "Чтобы удалить записи, вы должны сначала выбрать их",
+	  "error404Resource": "Ресурс со значением ID: {{resourceId}} не найден",
+	  "error404Action": "Ресурс із зазначеним ID: {{resourceId}} не має дії з назвою: {{actionName}} або Ви не маєте права використовувати його!",
+	  "error404Record": "Ресурс із зазначеним ID: {{resourceId}} не має запису з ID: {{recordId}} або Ви не маєте права використовувати його!",
+	  "seeConsoleForMore": "Просмотрите консоль для устранения ошибок, либо свяжитесь с разработчиком...",
+	  "noActionComponent": "Ви повинні заімплементувати ActionComponent для своєї дії",
+	  "noRecordsInResource": "У цьому ресурсі немає записів",
+	  "noRecords": "Нет записей.",
+	  "confirmDelete": "Вы действительно хотите удалить?",
+	  "welcomeOnBoard_title": "Добро пожаловать!",
+	  "welcomeOnBoard_subtitle": "Пум-пум-пум))",
+	  "addingResources_title": "Додавання ресурсів",
+	  "addingResources_subtitle": "Як додати нові ресурси до бічної панелі",
+	  "customizeResources_title": "Налаштування ресурсів",
+	  "customizeResources_subtitle": "Визначення поведінки, додавання властивостей тощо...",
+	  "customizeActions_title": "Налаштування дій",
+	  "customizeActions_subtitle": "Змінення існуючих дій і додавання нових",
+	  "writeOwnComponents_title": "Написання компонентів",
+	  "writeOwnComponents_subtitle": "Як змінити зовнішній вигляд AdminJS",
+	  "customDashboard_title": "Панелі приладів",
+	  "customDashboard_subtitle": "Як змінити цей екран та додати нові сторінки на бічній панелі»",
+	  "roleBasedAccess_title": "Контроль доступу на основі ролей",
+	  "roleBasedAccess_subtitle": "Створюйте ролі та дозволи користувачів у AdminJS",
+	  "community_title": "Приєднуйтесь до нашої спільноти на Discord'y",
+	  "community_subtitle": "Розмовляйте з розробниками та іншими користувачами AdminJS",
+	  "foundBug_title": "Знайшли помилку? Потребуєте покращення?",
+	  "foundBug_subtitle": "Опишіть проблему у нашому репозиторії GitHub",
+	  "needMoreSolutions_title": "Потрібні більш просунуті рішення?",
+	  "needMoreSolutions_subtitle": "Ми тут, щоб допомогти Вам з UX/UI дизайном та розробленням програмного забезпечення на основі (та не тільки) AdminJS",
+	  "invalidCredentials": "Неправильна адреса електронної пошти та/або пароль",
+	  "pageNotFound_title": "Сторінку не знайдено",
+	  "pageNotFound_subtitle": "Сторінка <strong>\"{{pageName}}\"</strong> не існує",
+	  "componentNotFound_title": "Компонент не вказано",
+	  "componentNotFound_subtitle": "Ви повинні вказати компонент, який буде рендерити цей елемент"
+	}
+  }
